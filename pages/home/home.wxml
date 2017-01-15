@@ -1,0 +1,5 @@
+<!--pages/carLoan/carLoan.wxml-->
+<view class="section">
+ <image style="width: 100%; height: 200px; background-color: #eeeeee;" mode="center" src="/images/guide_one_img.jpg"></image>
+
+</view>

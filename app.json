@@ -1,0 +1,41 @@
+
+{
+  "pages":[
+
+    "pages/home/home",
+    "pages/carLoan/carLoan",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#12b7f4",
+    "navigationBarTitleText": "车庄",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#9B9DB1",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "images/icon_tabbar_shouye_nor.png",
+      "selectedIconPath": "images/icon_tabbar_shouye_press.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/carLoan/carLoan",
+      "iconPath": "images/icon_tabbar_chedai_nor.png",
+      "selectedIconPath": "images/icon_tabbar_chedai_press.png",
+      "text": "车贷"
+    },
+     {
+      "pagePath": "pages/user/user",
+      "iconPath": "images/icon_tabbar_wode_nor.png",
+      "selectedIconPath": "images/icon_tabbar_wode_press.png",
+      "text": "我的"
+    }]
+  }
+}
