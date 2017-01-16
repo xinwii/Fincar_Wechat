@@ -1,5 +1,17 @@
-<!--pages/carLoan/carLoan.wxml-->
-<view class="section">
- <image style="width: 100%; height: 200px; background-color: #eeeeee;" mode="center" src="/images/guide_one_img.jpg"></image>
 
+<!--pages/carLoan/carLoan.wxml-->
+<view class="body">
+  <image class="image_top" mode="center" src="/images/guide_one_img.jpg"></image>
+  <view class="banner_view">
+    <text style="font-size: 26rpx;margin-left:20rpx">平台数据</text>
+  </view>
+  <view style="width:50%;height:200rpx;position: relative">
+    <view style="position: relative">
+      <image src="/images/icon_chedaidianfu.png"></image>
+      <view class="fun_space">
+        <text class="item_text">车贷垫付</text>
+        <text class="item_text">信用无抵押</text>
+      </view>
+    </view>
+  </view>
 </view>
